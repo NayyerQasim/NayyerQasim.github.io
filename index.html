@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Custom CSS for Sticky Navbar -->
+<style>
+    /* Sticky Navbar Styles */
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #343a40; /* Dark background color */
+    }
+    .navbar a {
+        color: white !important;
+    }
+    .navbar a:hover {
+        color: #ffc0cb !important; /* Pink color on hover */
+    }
+    /* Smooth scroll for sections */
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+
+
+<body>
+
+
+
+    <!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#home">Nayyer Qasim's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+    
+
+<!-- About Section -->
+<section id="about" class="container text-center my-5">
+    <h2 class="display-4 fw-bold mb-4">About</h2>
+    <div class="d-flex justify-content-center mb-4">
+        <img src="images/about/2.jpeg" alt="Profile Picture" style="width: 100%; height: 380px; object-fit: cover; object-position: middle;">
+    </div>
+    <p class="lead text-muted">
+        Welcome to a showcase of some of the projects from my Master’s in Data Science journey, where I’ve refined my skills in R, Python, Machine Learning, Predictive Analytics, Data Mining, Data Visualization, and Statistical Analysis. Each project highlights my ability to tackle complex challenges through rigorous, data-driven solutions, combining technical expertise with statistical precision and creative problem-solving. 
+        <a class="btn btn-link p-0" data-bs-toggle="collapse" href="#about-more" role="button" aria-expanded="false" aria-controls="about-more">
+            Read More <i class="bi bi-chevron-down"></i>
+        </a>
+    </p>
+    <div class="collapse" id="about-more">
+        <p class="lead text-muted">
+            With a solid foundation in statistics, computer science, and business, as well as a passion for research, I have applied advanced statistical methodologies to uncover meaningful insights and drive data-informed decision-making. My hands-on experience as a Research Assistant has deepened my expertise in academic research, contributing to innovative projects at the intersection of data science and statistical analysis. Additionally, my diverse work experience across multiple sectors has strengthened my ability to adapt data science solutions to real-world business challenges. Now, I am eager to pursue a Ph.D., push the boundaries of research and analytical methodologies, and contribute to the evolving field of data science.
+        </p>
+    </div>
+</section>
+
+
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="container text-center my-5">
+    <h2 class="display-4 fw-bold mb-4">Projects</h2>
+    <div class="row">
+        <!-- Project 1 Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+                <img src="images/projects/1.webp" class="card-img-top" img-fluid" alt="Project 1 Image" style="max-height: 250px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">My Presentation At Joint Statistical Meetings 2024</h5>
+                    <p class="card-text">
+                        This project is about improving the diagnostic accuracy in multivariate settings. The Multivariate Youden Index is a key measure in evaluating the effectiveness of medical diagnostic tests that involve multiple biomarkers.
+                    </p>
+                    <a href="https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=3160" class="text-decoration-none fw-bold">JSM 2024</a> | <a href="https://drive.google.com/file/d/1lAWN39hAJufCAZ0kP3iSB8lzm-N9w3h_/view?usp=drive_link" class="text-decoration-none fw-bold">View</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0">
+                <img src="images/projects/2.webp" class="card-img-top" img-fluid" alt="Project 2 Image" style="max-height: 250px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Loops & Spuervised Machine Learning In R</h5>
+                    <p class="card-text">
+                        This project demonstrates the use of loops and supervised machine learning in R, showcasing iterative techniques like for-loops and while-loops. It also includes the implementation of basic machine learning models for predictive analysis.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1nwFVMvZZzJ1soVxV3MKTL3ZVubKrvO12/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 9 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/9.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Statistical Learning in Python</h5>
+            <p class="card-text">
+                This project implements classification algorithms such as Logistic Regression, Linear Discriminant Analysis, Quadratic Discriminant Analysis, Naive Bayes, and K-Nearest Neighbors using python to analyze data.
+            </p>
+            <a href="https://drive.google.com/file/d/1JgiV0cAovSIJjz7wztCu4QSqUByO5Do-/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+        <!-- Project 3 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/3.webp" class="card-img-top img-fluid" alt="Project 3 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Data Analysis & Visualizations In R</h5>
+            <p class="card-text">
+                This project demonstrates data manipulation, statistical analysis, and visualizations using R programming. It involves building linear models to explore relationships between variables. It also includes creating various visualizations. 
+            </p>
+            <a href="https://drive.google.com/file/d/1BifpvpR-XFB1dZn-NcBazfB9RhxK7Rox/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 4 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/4.webp" class="card-img-top img-fluid" alt="Project 4 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Olympics Medals Prediction Using Machine Learning</h5>
+            <p class="card-text">
+                In this project I used Python to build and evaluate various machine learning models with differernt variations to predict the number of medals won by participating countries in international sporting events. 
+            </p>
+            <a href="https://drive.google.com/file/d/19Kq6x7CMMSII6H8SakiNxrHqHBc9kqFp/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 5 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/5.1.webp" class="card-img-top img-fluid" alt="Project 5 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Running Image Processing Examples Using TensorFlow</h5>
+            <p class="card-text">
+                This project uses TensorFlow, leveraging convolutional neural networks (CNNs) for image classification. The project showcases how TensorFlow can be effectively utilized for real-world image recognition problems.
+            </p>
+            <a href="https://drive.google.com/file/d/1Ucr6ZUXA40MpL8cTcXyuc2AHcm7pyQa6/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Project 6 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/6.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Loops in Python</h5>
+            <p class="card-text">
+                explores the fundamentals of using loops to perform repetitive tasks efficiently. The project covers different types of loops, including for-loops, while-loops, and nested loops, to automate tasks such as iterating over data, controlling program flow, and optimizing code performance.
+            </p>
+            <a href="https://drive.google.com/file/d/1MJujoYpfqN5QcdWtZe6WEF90GuGBCFD4/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 10 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/10.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Churn Analysis Using R</h5>
+            <p class="card-text">
+                This project focuses on analyzing customer churn data to identify patterns and trends that affect customer retention. Through visualizations like bar plots, bubble charts, and correlation heatmaps, insights are drawn from features such as credit scores, geography, and customer activity.
+            </p>
+            <a href="https://drive.google.com/file/d/146c3xic3DYuxW5jdekbHZRX-h5kjB3xB/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 11 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/11.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Data Analysis & Visualization using SAS</h5>
+            <p class="card-text">
+                In this project, SAS Help datasets like Stock, Class, Cars, Heart, and Wages were utilized to perform comprehensive data analysis and visualization. Key insights were drawn by analyzing trends, distributions, and relationships.
+            </p>
+            <a href="https://drive.google.com/file/d/1ZgPXkTU55OpWRsY1BG3jHN47sNfHvdvB/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 7 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/7.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Numpy & Pandas in Python</h5>
+            <p class="card-text">
+                This project explores the use of Numpy for efficient numerical computations and Pandas for data manipulation tasks, such as data cleaning and aggregation. It demonstrates how these libraries simplify handling and analyzing large datasets in Python.
+            </p>
+            <a href="https://drive.google.com/file/d/17_HIZog8Lv88j3isMuSCiCJUXNOs56JH/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 8 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/8.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Data Wrangling in Python</h5>
+            <p class="card-text">
+                This project focuses on Data Wrangling in Python, using famous library like Pandas to clean, transform, and prepare data for analysis. It showcases techniques for handling missing values, filtering data, and reshaping datasets to derive meaningful insights.
+            </p>
+            <a href="https://drive.google.com/file/d/1AgrMlb4rCreCh_8FOunabS1MUqc2HAXU/view?usp=sharing" class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 12 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/12.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Data Mining Using IBM SPS Modeler</h5>
+            <p class="card-text">
+                This data mining project analyzes three distinct datasets following the CRISP-DM methodology, involves clustering countries based on their IT usage, uncovering association rules for cross-selling products, and predicting house prices in U.S. towns.
+            </p>
+            <a href="https://drive.google.com/file/d/1jWUlerq4gmtW1alt731k9xhFoZFNsMVF/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 13 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/13.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Salary Estimation Using Supervised Machine Learning</h5>
+            <p class="card-text">
+                This project applied supervised machine learning models in IBM SPSS Modeler to estimate sales representatives' salaries in the tech industry. Various models including Multiple Linear Rrgression, KNN and Neural Networks were evaluated using Mean Squared Error.
+            </p>
+            <a href="https://drive.google.com/file/d/1VitrJbGx1_xmrofNhzGM9XQ3GWEL8-T6/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 14 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/14.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Predictive Analysis of College Admissions Data</h5>
+            <p class="card-text">
+                This project aimed to develop an accurate predictive model for college admissions outcomes, focusing on whether applicants would be admitted based on various attributes. A dataset containing information on 17,339 applicants across three colleges within a university was analyzed.
+            </p>
+            <a href="https://drive.google.com/file/d/1SBP7xJtJznbfzsK9Oml_mr1JbuuEUxiP/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 15 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/15.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">NoSQL:Creating Dashboard in MongoDB </h5>
+            <p class="card-text">
+                This project involved creating an interactive dashboard to visualize Olympic gold medal data, leveraging MongoDB for data storage and management.MongoDB was used for its flexibility in handling complex, unstructured data, allowing easy aggregation and retrieval for dynamic chart generation.
+            </p>
+            <a href="https://drive.google.com/file/d/1A1_CVP2OAaBM9S4kaj5q9kgq2vsYUW52/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 16 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/16.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">White Paper: Database Security & Ethics </h5>
+            <p class="card-text">
+                This project examines the multifaceted aspects of database security and ethics, exploring critical issues such as responsible data usage, breach accountability, and legal frameworks. It delves into  managing sensitive data, emphasizing the need for clarity in intentions when using or collecting data.
+            </p>
+            <a href="https://drive.google.com/file/d/15QQ036UUusCq8ts9euHilF41VzOVan3w/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 17 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/17.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Database Administration: Disaster Management Plan </h5>
+            <p class="card-text">
+                This project presents a detailed disaster management plan for a large-scale retail organization that depends on outsourced systems for its operations. The plan addresses four critical disaster scenarios: wide-scale power outages, system failures, ransomware attacks, and unauthorized access.
+            </p>
+            <a href="https://drive.google.com/file/d/15QQ036UUusCq8ts9euHilF41VzOVan3w/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 18 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/18.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Evaluating Cloud vs. In-House Database Hosting </h5>
+            <p class="card-text">
+                This white paper focuses on evaluating the critical factors involved in choosing between cloud-hosted databases and in-house database management. The white paper explores key considerations such as the costs associated with each option, potential for early termination, the impact on staff levels, and security concerns.
+            </p>
+            <a href="https://drive.google.com/file/d/1le8UDJj8lRUxEISoC-g68qdVytcMFJzv/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 19 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/19.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Applied Statistics: Logistic Regression & SAS </h5>
+            <p class="card-text">
+                This project focuses on applying logistic regression using SAS software to analyze data from the Behavioral Risk Factor Surveillance System (BRFSS). I used logistic regression to model relationships between various behavioral risk factors (such as smoking, alcohol use, and physical activity) and health outcomes like chronic diseases or conditions.
+            </p>
+            <a href="https://drive.google.com/file/d/1hfLjJRIiNi6532NdAHRT6sPqt2up9Vvr/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 20 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/20.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Applied Statistics: Simple Linear Regression & SAS </h5>
+            <p class="card-text">
+                This in-class project focused on applying simple linear regression using SAS to solve statistical problems and analyze provided data. The project involved answering various questions related to the concepts of linear regression, including understanding relationships between variables, calculating regression coefficients, and interpreting statistical outputs.
+            </p>
+            <a href="https://drive.google.com/file/d/1KagW04kbxx8gFtXYbakCEyBH3JXc9DuA/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 21 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/21.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Applied Statistics: Multiple Linear Regression </h5>
+            <p class="card-text">
+                This in-class project focused on the theoretical aspects of multiple linear regression as part of an applied statistical methods course. The objective was to understand and explore how multiple independent variables can be used to predict the outcome of a dependent variable and how multiple linear regression can be applied to complex datasets and scenarios. 
+            </p>
+            <a href="https://drive.google.com/file/d/1Re_wh3vfVnpdDqbB_Ye00fwg7vnoCt30/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 22 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/22.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Applied Statistics: Multiple Linear Regression using R</h5>
+            <p class="card-text">
+                This project involved applying multiple linear regression using R to analyze the "Graduate Admission 2" dataset, downloaded from Kaggle.com.The goal of this project was to model and predict the likelihood of a student being admitted to a graduate program based on these features. R was used for statistical analysis and evaluating model fitness.
+            </p>
+            <a href="https://drive.google.com/file/d/1BxZYpwXJb2aFOB-fU6yVZ5NDUx4czr_D/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 23 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/23.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Applied Statistical Methods: Statistical Solutions & SAS Analysis</h5>
+            <p class="card-text">
+                This midterm exam for the Applied Statistical Methods course focused on solving various statistical questions using theoretical knowledge and practical data analysis with SAS software. The exam tested a range of concepts, particularly regression analysis, hypothesis testing, and estimation techniques.
+            </p>
+            <a href="https://drive.google.com/file/d/1X_fb82Y1rfBQeY4Pw0qK3dGMH3kbfVFs/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 24 Card -->
+<div class="col-md-4 mb-4">
+    <div class="card h-100 border-0">
+        <img src="images/projects/24.webp" class="card-img-top img-fluid" alt="Project 6 Image" style="max-height: 250px; object-fit: contain;">
+        <div class="card-body">
+            <h5 class="card-title fw-bold">Data Visualization: Interactive Charts Using R-Integrated Javascript</h5>
+            <p class="card-text">
+                This project explores interactive data visualization techniques using R and JavaScript libraries. The goal was to integrate various JavaScript-based libraries, such as threejs, leaflet, visNetwork, and highcharter, with R to create dynamic and interactive visualizations that enhance data exploration and analysis.
+            </p>
+            <a href="https://drive.google.com/file/d/1YxO45iOt_kVqisBbxDgaMeMvS8qDPiUS/view?usp=drive_link"class="text-decoration-none fw-bold">View</a>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- Contact Me Section -->
+<section id="contact" class="py-5 text-white" style="background-color: #333;">
+    <div class="container text-center">
+        <!-- Section Heading -->
+        <h2 class="display-4 fw-bold mb-4">Contact Me</h2>
+
+        <!-- Contact Information -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-12 col-md-6 d-flex justify-content-around align-items-center">
+                <!-- Email Address -->
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-envelope-fill fs-4 me-2"></i> <!-- Bootstrap Icon for Mail -->
+                    <span>itsnayyer@hotmail.com</span>
+                </div>
+                <!-- Phone Number -->
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-telephone-fill fs-4 me-2"></i> <!-- Bootstrap Icon for Phone -->
+                    <span>+1 586 838 6833</span>
+                </div>
+                <!-- Phone Number -->
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-telephone-fill fs-4 me-2"></i> <!-- Bootstrap Icon for Phone -->
+                    <a href="https://www.linkedin.com/in/nayyerqasim"class="text-decoration-none fw-bold">My LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
